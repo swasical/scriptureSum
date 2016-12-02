@@ -1,0 +1,191 @@
+body 
+{
+	font-size: 20px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.table
+{
+	display: table;
+}
+
+.tr
+{
+	display: table-row;
+}
+
+.tr > *
+{
+	display: table-cell;
+	padding: 5px 20px;
+}
+
+.HR
+{
+	border-bottom: 3px solid black;
+	margin: 10px 0;
+}
+
+.btn {
+	font-size: 16px;
+    margin-bottom: 8px;
+    border-radius: 0px;
+    padding: .25rem .5rem;
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;	
+	border-bottom: 15px solid black;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;	
+	border-top: 15px solid black;
+}
+
+[ng-click] 
+{
+	cursor: pointer;
+}
+
+.leftCol
+{
+    float:left;
+    padding-right: 20px;
+    width: 50%;
+    min-width: 300px;
+}
+.leftCol:last-of-type
+{
+    padding-right: 0px;
+}
+@media (max-width : 730px) 
+{
+    .leftCol
+    {
+        width: 100%;
+        padding-right: 0px;
+    }
+}
+
+
+.cardBox
+{
+    margin: 0 15px;
+    /*float: left;*/
+    display: inline-block;
+    position: relative;
+}
+.card
+{
+    border: 2px solid #1c818f;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);background: white;
+    /*min-height: 150px;
+    min-width: 190px;*/
+    position: relative;
+
+    width: 20rem; /*(320 px)*/ 
+    padding: 1.25rem;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.card.long
+{
+	padding: 0.75rem;
+	height: 12rem;
+	overflow: auto;
+	width: 24rem;
+}
+.card.short
+{
+	padding: 2px;
+}
+.card:hover 
+{
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 24px 0 rgba(0, 0, 0, 0.19);cursor: pointer;
+}
+
+.cardWatermark
+{
+    position: absolute;
+    float:right;
+    font-size: 90px;        
+    top: 1.25rem;
+    right: 1.25rem;
+    /*opacity: 0.3;*/
+}
+.cardRate
+{
+    /*border-top: 1px solid #E8E8E8;*/
+    position: absolute;
+    bottom: 1.25rem;
+    /*right: 0px;
+    left: 0px;
+    margin: 0 10%;
+    padding-top: 8px;*/        
+    text-align: start;
+
+    font-size: 1.25rem; 
+    color: #222222;
+    /*label font font-family: open sans - regular. etc. 
+    font-size: 1.25 rem 
+    data font font-family: open sans - bold. etc. 
+    font-size: 1.25 rem*/
+}
+
+.tileHeading
+{
+    padding-left: 0.25rem; 
+    padding-bottom: 0.5rem; 
+    padding-top: 2.75rem; 
+    font-size: 1.25rem;
+    color: #1c818f;
+    text-align: start;
+}
+
+.smallLabel
+{
+    width: 100px;
+    display: inline-block;
+}
+
+.iconFont
+{
+    font-size: 19px;
+    font-family: sans-serif;
+    border: 1px solid #1c818f;
+    border-radius: 45%;
+    padding: 4px;
+    background-color: #1c818f;
+    color: beige;
+}
+
+.selectedText
+{
+	font-weight: bold;
+}
+.settingsBox
+{
+	min-width: 300px;
+	border: 1px solid #1c818f;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.settingsBox div
+{
+	margin: 5px;
+}
+label[for]
+{
+	cursor:pointer;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "scriptureSum",
+  "version": "0.1.0",
+  "devDependencies": {
+    "express": "~4.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2"
+  }
+}
