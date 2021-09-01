@@ -3,7 +3,7 @@ var bodyParser = require('body-parser');
 var nodeApp = express();
 
 nodeApp.use(bodyParser.json());
-nodeApp.use(express.static('C:\\Users\\daniel86\\Documents\\GitHub\\scriptureSum'));
+nodeApp.use(express.static('C:\\Path\\To\\ServerJs\\Folder'));
 nodeApp.listen(process.env.PORT || 3000);
 
 var fs = require('fs');
